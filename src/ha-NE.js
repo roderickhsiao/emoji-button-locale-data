@@ -1,0 +1,1 @@
+export default [{"_":"kan layi","$":{"cp":"‾"}},{"_":"kan layi","$":{"cp":"‾","type":"tts"}},{"_":"introbang","$":{"cp":"‽"}},{"_":"introbang","$":{"cp":"‽","type":"tts"}},{"_":"kula","$":{"cp":"‸"}},{"_":"kula","$":{"cp":"‸","type":"tts"}},{"_":"alada","$":{"cp":"⁂"}},{"_":"alada","$":{"cp":"⁂","type":"tts"}}];

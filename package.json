@@ -8,7 +8,8 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "yarn babel-node scripts/generateLocaleData.js"
+    "prepare": "yarn babel-node scripts/fetchAnnotations",
+    "publishOnly": "yarn babel-node scripts/generateLocaleData"
   },
   "author": "Roderick Hsiao <roderickhsiao@gmail.com> (https://roderickhsiao.me)",
   "repository": {
@@ -21,11 +22,9 @@
     "@babel/core": "^7.0.0",
     "@babel/node": "^7.12.6",
     "@babel/preset-env": "^7.0.0",
-    "emoji-unicode": "^2.0.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.2.0",
-    "fast-xml-parser": "^3.17.4",
     "fs-extra": "^9.0.1",
     "immer": "^8.0.0",
     "lodash": "^4.17.20",
