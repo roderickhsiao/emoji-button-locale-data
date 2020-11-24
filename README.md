@@ -1,2 +1,5 @@
 # emoji-button-locale-data
-Localized Emoji data for @joeattardi/emoji-button
+Localized Emoji data from CLDR for @joeattardi/emoji-button
+
+* Note, not all locale and emoji data are in CLDR
+* 

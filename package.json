@@ -1,0 +1,35 @@
+{
+  "name": "@roderickhsiao/emoji-button-locale-data",
+  "version": "0.0.1",
+  "description": "Localized Emoji data for @joeattardi/emoji-button",
+  "keywords": [
+    "emoji",
+    "javascript"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "yarn babel-node scripts/generateLocaleData.js"
+  },
+  "author": "Roderick Hsiao <roderickhsiao@gmail.com> (https://roderickhsiao.me)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roderickhsiao/emoji-button-locale-data.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.0.0",
+    "emoji-unicode": "^2.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "fast-xml-parser": "^3.17.4",
+    "fs-extra": "^9.0.1",
+    "immer": "^8.0.0",
+    "lodash": "^4.17.20",
+    "recursive-readdir": "^2.2.2",
+    "xml2js": "^0.4.23"
+  }
+}
