@@ -1,6 +1,6 @@
 {
   "name": "@roderickhsiao/emoji-button-locale-data",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Localized Emoji data for @joeattardi/emoji-button",
   "keywords": [
     "emoji",
@@ -9,7 +9,7 @@
   "main": "dist/index.js",
   "scripts": {
     "prepare": "yarn babel-node scripts/fetchAnnotations",
-    "publishOnly": "yarn babel-node scripts/generateLocaleData"
+    "prepublishOnly": "yarn babel-node scripts/generateLocaleData"
   },
   "author": "Roderick Hsiao <roderickhsiao@gmail.com> (https://roderickhsiao.me)",
   "repository": {

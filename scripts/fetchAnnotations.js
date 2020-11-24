@@ -1,3 +1,4 @@
+import { parseString } from 'xml2js';
 import fs from "fs-extra";
 import recursive from "recursive-readdir";
 
