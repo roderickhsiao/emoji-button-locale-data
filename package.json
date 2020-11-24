@@ -8,7 +8,7 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "yarn babel-node scripts/fetchAnnotations",
+    "fetch": "yarn babel-node scripts/fetchAnnotations",
     "prepublishOnly": "yarn babel-node scripts/generateLocaleData"
   },
   "author": "Roderick Hsiao <roderickhsiao@gmail.com> (https://roderickhsiao.me)",
